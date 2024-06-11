@@ -1,0 +1,116 @@
+.digital-time-main-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 45px;
+  text-align: center;
+}
+
+.timer-count-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.time-container {
+  background-color: #ffffff;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-count-heading {
+  color: #00d9f5;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin: 0px;
+}
+
+.timer-count-running {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin: 0px;
+}
+
+.digital-timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pause-reset-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-image {
+  height: 35px;
+  width: 35px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.vamsi {
+  margin-right: 25px;
+}
+
+.timer-icon-text {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+
+.timer-increment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.button-style {
+  font-size: 30px;
+  background-color: transparent;
+  font-weight: bold;
+  border-style: none;
+  cursor: pointer;
+}
+
+.time-increment {
+  background-color: #5bcdb1;
+  width: 100px;
+  padding: 8px;
+  text-align: center;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #1e293b;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
